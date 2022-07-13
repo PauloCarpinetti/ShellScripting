@@ -1,0 +1,35 @@
+#!/bin/bash
+
+echo -e "\033[31mErro\033[0m"
+echo -e "\e[31mErro\e[0m"
+echo -e "\e[4mTexto sublinhado\e[0m"
+
+echo -e "Cor \e[30mBlack\e[0m"
+echo -e "Cor \e[31mRed\e[0m"
+echo -e "Cor \e[32mGreen\e[0m"
+echo -e "Cor \e[33mYellow\e[0m"
+echo -e "Cor \e[34mBlue\e[0m"
+echo -e "Cor \e[35mMagenta\e[0m"
+echo -e "Cor \e[36mCyan\e[0m"
+echo -e "Cor \e[37mLight Gray\e[0m"
+echo -e "Cor \e[90mDark Gray \e[0m"
+echo -e "Cor \e[91mLight red \e[0m"
+echo -e "Cor \e[92mLight Green\e[0m"
+echo -e "Cor \e[93mLight Yellow\e[0m"
+echo -e "Cor \e[94mLight Blue\e[0m"
+echo -e "Cor \e[95mLight Magenta\e[0m"
+echo -e "Cor \e[96mLight Cyan\e[0m"
+echo -e "Cor \e[97mWhite\e[0m"
+
+echo -e "\e[31;42mCor de texto vermelha e fundo verde\e[0m"
+echo -e "\e[33;41mCor de texto amarelo e fundo vermelho\e[0m"
+echo -e "\e[34;47mCor de texto azul e fundo branco\e[0m"
+
+VERMELHO="\e[31m"
+VERDE="\e[32m"
+AZUL="\e[34m"
+RESET="\e[0m"
+
+echo -e "${VERMELHO}Vermelho${RESET}" 
+echo -e "${Azul}Azul${RESET}" 
+echo -e "${VERDE}Verde${RESET}" 
